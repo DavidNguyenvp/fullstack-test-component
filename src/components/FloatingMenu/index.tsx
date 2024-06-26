@@ -28,7 +28,7 @@ const FloatingMenu = (props: FloatingMenuProps) => {
   const PADDING_BOTTOM = 100;
 
   const menuPosition = useMemo(() => {
-    let x = postion.x - 366;
+    let x = postion.x - 316;
     if (x < 0) {
       x = postion.x + 116;
     }

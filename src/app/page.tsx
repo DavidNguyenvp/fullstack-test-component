@@ -40,23 +40,23 @@ export default function Home(props: HomeProps) {
       switch (cartPosition) {
         case "topLeft":
           return {
-            top: 0,
+            top: 50,
             left: 100,
           };
         case "topRight":
           return {
-            top: 0,
+            top: 50,
             right: 100,
           };
         case "bottomLeft":
           return {
-            bottom: 0,
-            left: 0,
+            bottom: 50,
+            left: 100,
           };
         case "bottomRight":
           return {
-            bottom: 0,
-            right: 0,
+            bottom: 50,
+            right: 100,
           };
         default:
           return {

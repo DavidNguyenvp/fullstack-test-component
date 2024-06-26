@@ -12,64 +12,63 @@ export const MenuContainer = styled(Box)(({ theme }) => ({
   alignItems: "center",
   "& .menu-list": {
     position: "absolute",
-    width: "350px",
+    width: "300px",
     height: "auto",
   },
 
   "& .menu-item": {
-    
     display: "flex",
     flexDirection: "column",
-    marginBottom: "1rem",
-    padding: "0 3rem",
-    minHeight: "7rem",
+    marginBottom: "16px",
+    padding: "0 24px",
+    minHeight: "56px",
     [theme.breakpoints.down("md")]: {
-      minHeight: "6rem",
+      minHeight: "48px",
     },
     background: "#ffffff",
     boxShadow: "rgba(227, 219, 225, 0.2) 0px 8px 24px",
-    
+
     borderRadius: "5px",
     "& .top": {
-      margin: "1rem 0",
+      margin: "16px 0",
       display: "flex",
       alignItems: "center",
       justifyContent: "space-between",
       "& .MuiButton-icon": {
-        marginRight: "1rem",
+        marginRight: "16px",
       },
       "& .button-text": {
         padding: 0,
-        fontSize: "18px",
+        fontSize: "14px",
         color: "#000000",
         textTransform: "capitalize",
       },
       "& .price": {
-        fontSize: "16px",
+        fontSize: "14px",
         color: "#000000",
         textTransform: "capitalize",
       },
     },
 
     "& .center": {
-      marginBottom: "2rem",
+      marginBottom: "16px",
       "& .description": {
-        fontSize: "16px",
+        fontSize: "14px",
         color: "rgba(0, 0, 0 , 0.7)",
       },
     },
     "& .bottom": {
-      marginBottom: "1rem",
-      display: 'flex',
+      marginBottom: "16px",
+      display: "flex",
       gap: 10,
-      overflow: 'hidden',
+      overflow: "hidden",
       "& .tag": {
         width: "fit-content",
         padding: "4px 8px",
         background: "#e6e6e6",
         textTransform: "inherit",
         color: "#000000",
-        fontSize: "18px",
+        fontSize: "14px",
       },
     },
   },
@@ -77,10 +76,10 @@ export const MenuContainer = styled(Box)(({ theme }) => ({
 
 
 export const CloseButton = styled(Button)(() => ({
-  width: "5rem",
-  height: "5rem",
+  width: "40px",
+  height: "40px",
   borderRadius: "50%",
-  fontSize: "20px",
+  fontSize: "16px",
   background: "#ffffff",
   color: "#000000",
   boxShadow: "rgba(227, 219, 225, 0.5) 0px 8px 24px",
@@ -89,4 +88,5 @@ export const CloseButton = styled(Button)(() => ({
   ":hover": {
     background: "#ffffff",
   },
+  minWidth: "40px",
 }));

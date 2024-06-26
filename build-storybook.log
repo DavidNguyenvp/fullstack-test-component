@@ -1,0 +1,9 @@
+yarn run v1.22.22
+$ storybook build --output-dir /var/folders/ms/nz_3r_gx2ylclzgn0735z65m0000gn/T/chromatic--22516-RTSUw4eHFEpu
+@storybook/cli v8.1.10
+
+info => Cleaning outputDir: ../../../../../../../var/folders/ms/nz_3r_gx2ylclzgn0735z65m0000gn/T/chromatic--22516-RTSUw4eHFEpu
+info => Loading presets
+info => Building manager..
+info => Manager built (265 ms)
+info => Building preview..
