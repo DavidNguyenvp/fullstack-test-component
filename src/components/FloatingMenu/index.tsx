@@ -30,12 +30,14 @@ const FloatingMenu = (props: FloatingMenuProps) => {
   const menuPosition = useMemo(() => {
     let x = postion.x - 316;
     if (x < 0) {
-      x = postion.x + 116;
+      x = postion.x + 56;
     }
 
     let y = postion.y;
     if (y > menuHeight) {
       y = postion.y - menuHeight + PADDING_BOTTOM;
+    } else {
+      y = postion.y - PADDING_BOTTOM < 10 ? 10 : postion.y - PADDING_BOTTOM;
     }
     return { x: x, y: y };
   }, [menuHeight, postion.x, postion.y]);
